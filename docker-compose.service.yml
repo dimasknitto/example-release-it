@@ -1,0 +1,37 @@
+version: "3"
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+  express-todo:
+    container_name: express-todo
+    build:
+      context: ./services/express-todo
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
+  express-user:
+    container_name: express-user
+    build:
+      context: ./services/express-user
+      dockerfile: Dockerfile
+    ports:
+      - "4001:4001"
+    restart: unless-stopped
+  express-api:
+    container_name: express-api
+    build:
+      context: ./api/backend
+      dockerfile: Dockerfile
+    ports:
+      - "3500:3500"
+    restart: unless-stopped
+    
+
+
