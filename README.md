@@ -1,5 +1,9 @@
 # Contoh Repository Event Driven
 
+Dokumen Event Driven : [link](https://docs.google.com/document/d/1c2UvkgYImZJD8xew_kty4NIG5iPUg4VWAbO1vGOa7QQ/edit?usp=sharing)
+
+Presentasi Event Driven : [link](https://docs.google.com/presentation/d/1dXMa4km0sKADXKGoiYKaREHhJLkF50WDNkacvx-1EOg/edit?usp=sharing)
+
 ### Cara menjalakan aplikasi
 
 1. Pastikan file `.env.example` pada setiap folder repository sudah di ganti ke `.env` sesuai dengan environtment yang di sediakan.
