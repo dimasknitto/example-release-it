@@ -1,0 +1,3 @@
+[submodule "rabbitmq-simple-case"]
+	path = rabbitmq-simple-case
+	url = https://github.com/dimasknitto/rabbitmq-simple-case
